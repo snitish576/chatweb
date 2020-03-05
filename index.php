@@ -3,7 +3,7 @@ session_start();
 if (isset($_SESSION["sid"])) {
 
     header("location:chat.php");
-    //yoo man
+    //yoo man hello
 }
 
 ?>
