@@ -1,0 +1,860 @@
+body {
+    background: rgb(212, 191, 164);
+    margin: 0;
+}
+
+.one {
+    width: 100%;
+}
+
+.banty form {
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.banty table {
+    box-shadow: 1px 1px 15px rgb(70, 49, 27);
+    background: rgb(258, 258, 258);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#abc {
+    font-family: "Century Gothic";
+    font-size: 30px;
+    padding: 0;
+    background: rgb(206, 68, 43);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+    color: rgb(212, 191, 164);
+}
+
+.banty td {
+    font-family: "Century Gothic";
+    display: flex;
+}
+
+.flex-span {
+    flex: 1;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.flex-in {
+    flex: 2;
+}
+
+.banty input[type="text"] {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.banty input[type="text"]:focus {
+    outline: none;
+}
+
+.banty input[type="password"] {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.banty input[type="password"]:focus {
+    outline: none;
+}
+
+#shampy {
+    padding-left: 45px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: arial;
+}
+
+#parulkar {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Century Gothic";
+    align: center;
+    background: rgb(206, 68, 43);
+    color: rgb(212, 191, 164);
+    cursor: pointer;
+    box-shadow: 1px 2px 6px inset;
+    border: 0px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#parulkar:hover {
+    background: linear-gradient(rgb(230, 68, 43), rgb(206, 68, 43));
+    cursor: pointer;
+}
+
+#parulkar:focus {
+    outline: none;
+}
+
+#trivedi {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#jojo {
+    font-size: 14px;
+    margin: auto;
+}
+
+#mary {
+    color: blue;
+    text-decoration: none;
+}
+
+.pl {
+    background: rgb(206, 68, 43);
+    font-size: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px grey;
+    font-family: "Century Gothic";
+    color: rgb(212, 191, 164);
+}
+
+.name {
+    float: left;
+    width: 100%;
+}
+
+.name table {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    border: 0px;
+    border-collapse: separate;
+    border-spacing: 4.5px;
+    width: 100%;
+}
+
+.plz {
+    padding-left: 50px;
+}
+
+@media only screen and (min-width:768px) {
+    body {
+        background: linear-gradient(rgb(212, 191, 164), rgb(183, 172, 136));
+        margin: 0;
+    }
+    .banty form {
+        float: right;
+        margin: auto;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 5vh;
+    }
+    .banty table {
+        box-shadow: 1px 1px 15px rgb(70, 49, 27);
+        background: rgb(258, 258, 258);
+        border-radius: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 50px;
+        font-size: 18px;
+        width: 280px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="text"]:focus {
+        outline: none;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 50px;
+        font-size: 18px;
+        width: 280px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"]:focus {
+        outline: none;
+    }
+    #mary {
+        color: blue;
+        text-decoration: none;
+    }
+    .pl {
+        background: rgb(206, 68, 43);
+        font-size: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px grey;
+        font-family: "Century Gothic";
+        color: rgb(212, 191, 164);
+    }
+    .name {
+        float: left;
+        width: 100%;
+    }
+    .name table {
+        padding-left: 10px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    #pqr {
+        padding-top: 0px;
+        width: 80%;
+        margin: auto;
+    }
+    .flex-span {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    #shampy {
+        font-size: 16px;
+        margin: auto;
+    }
+    #jojo {
+        font-size: 18px;
+        margin: auto;
+        padding: 5px;
+    }
+    #parulkar {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: "Century Gothic";
+        align: center;
+        background: rgb(206, 68, 43);
+        color: rgb(212, 191, 164);
+        cursor: pointer;
+        box-shadow: 1px 2px 6px inset;
+        border: 0px;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .banty table td {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #abc {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    body {
+        background: linear-gradient(rgb(212, 191, 164), rgb(183, 172, 136));
+        margin: 0;
+    }
+    .banty form {
+        float: right;
+        margin: auto;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 5vh;
+    }
+    .banty table {
+        box-shadow: 1px 1px 15px rgb(70, 49, 27);
+        background: rgb(258, 258, 258);
+        border-radius: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 60px;
+        font-size: 25px;
+        width: 370px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="text"]:focus {
+        outline: none;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 60px;
+        font-size: 25px;
+        width: 370px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"]:focus {
+        outline: none;
+    }
+    #mary {
+        color: blue;
+        text-decoration: none;
+    }
+    .pl {
+        background: rgb(206, 68, 43);
+        font-size: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px grey;
+        font-family: "Century Gothic";
+        color: rgb(212, 191, 164);
+    }
+    .name {
+        float: left;
+        width: 100%;
+    }
+    .name table {
+        padding-left: 10px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    #pqr {
+        padding-top: 0px;
+        width: 80%;
+        margin: auto;
+    }
+    .flex-span {
+        font-size: 40px;
+        padding-left: 70px;
+    }
+    #shampy {
+        font-size: 22px;
+        margin: auto;
+    }
+    #jojo {
+        font-size: 30px;
+        margin: auto;
+        padding: 5px;
+    }
+    #parulkar {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: "Century Gothic";
+        align: center;
+        background: rgb(206, 68, 43);
+        color: rgb(212, 191, 164);
+        cursor: pointer;
+        box-shadow: 1px 2px 6px inset;
+        border: 0px;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .banty table td {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #abc {
+        font-size: 60px;
+        padding: 20px;
+    }
+    .plz {
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .banty table {
+        float: right;
+        box-shadow: 1px 1px 15px rgb(70, 49, 27);
+        background: rgb(258, 258, 258);
+        border-radius: 15px;
+        width: 70%;
+        margin: 0;
+    }
+    .pl {
+        font-size: 30px;
+    }
+    .one {
+        padding-top: 20vh;
+        width: 90%;
+        margin: auto;
+    }
+    #abc {
+        font-size: 30px;
+        padding: 20px;
+    }
+    .name {
+        float: left;
+        width: 30%;
+        margin-top: 8vh;
+    }
+    .name table {
+        padding-left: 10px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    #pqr {
+        padding-top: 0px;
+        width: 30%;
+        margin: 0;
+    }
+    .banty form {
+        float: right;
+        margin: auto;
+        width: 50%;
+        padding-top: 0;
+    }
+    .plz {
+        display: none;
+    }
+    .flex-span {
+        flex: 1;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 5%;
+    }
+    .flex-in {
+        flex: 3;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    #shampy {
+        font-size: 14px;
+    }
+    #parulkar {
+        font-size: 20px;
+    }
+    #jojo {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .pl {
+        font-size: 50px;
+    }
+    .banty table {
+        float: right;
+        box-shadow: 1px 1px 15px rgb(70, 49, 27);
+        background: rgb(258, 258, 258);
+        border-radius: 15px;
+        width: 70%;
+        margin: 0;
+    }
+    .one {
+        padding-top: 20vh;
+        width: 90%;
+        margin: auto;
+    }
+    #abc {
+        font-size: 30px;
+        padding: 20px;
+    }
+    .name {
+        float: left;
+        width: 30%;
+        margin-top: 8vh;
+    }
+    .name table {
+        padding-left: 10px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    #pqr {
+        padding-top: 0px;
+        width: 30%;
+        margin: 0;
+    }
+    .banty form {
+        float: right;
+        margin: auto;
+        width: 50%;
+        padding-top: 0;
+    }
+    .plz {
+        display: none;
+    }
+    .flex-span {
+        flex: 1;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 5%;
+    }
+    .flex-in {
+        flex: 3;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    #shampy {
+        font-size: 14px;
+    }
+    #parulkar {
+        font-size: 20px;
+    }
+    #jojo {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .pl {
+        font-size: 70px;
+    }
+    .one {
+        padding-top: 20vh;
+        width: 90%;
+        margin: auto;
+    }
+    #abc {
+        font-size: 40px;
+        padding: 20px;
+    }
+    .name {
+        float: left;
+        width: 30%;
+        margin-top: 8vh;
+    }
+    .name table {
+        padding-left: 10px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+    #pqr {
+        padding-top: 0px;
+        width: 30%;
+        margin: 0;
+    }
+    .banty form {
+        float: right;
+        margin: auto;
+        width: 50%;
+        padding-top: 0;
+    }
+    .banty table {
+        margin-right: 15px;
+    }
+    .plz {
+        display: none;
+    }
+    .flex-span {
+        flex: 1;
+        font-size: 25px;
+        padding-top: 5px;
+        padding-left: 5%;
+    }
+    .flex-in {
+        flex: 3;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        font-size: 16px;
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    #shampy {
+        font-size: 14px;
+    }
+    #parulkar {
+        font-size: 20px;
+    }
+    #jojo {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-height:736px) and (max-width:500px) {
+    .banty form {
+        background: rgb(212, 191, 164);
+        padding-top: 40%;
+    }
+}
+
+@media only screen and (min-height:823px) and (max-width:411px) {
+    .banty form {
+        background: rgb(212, 191, 164);
+        padding-top: 40%;
+    }
+}
+
+@media only screen and (min-height:568px) and (max-width:320px) {
+    body {
+        margin: 0px;
+    }
+    #abc {
+        font-size: 30px;
+        font-family: "Century Gothic";
+        padding: 10px;
+    }
+    .name {
+        padding: 0px;
+        padding-top: 2px;
+    }
+    .banty form {
+        background: rgb(212, 191, 164);
+        padding-top: 40%;
+    }
+    .banty table {
+        padding-left: 0px;
+        box-shadow: 1px 1px 15px rgb(70, 49, 27);
+        background: rgb(258, 258, 258);
+        border-radius: 15px;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="text"]:focus {
+        outline: none;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"]:focus {
+        outline: none;
+    }
+    #shampy {
+        padding-left: 45px;
+        margin: 0px;
+        font-size: 11px;
+        font-family: arial;
+    }
+    #parulkar {
+        padding-right: 22px;
+        padding-left: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: "Century Gothic";
+        align: center;
+        background: rgb(206, 68, 43);
+        color: rgb(212, 191, 164);
+        cursor: pointer;
+        box-shadow: 1px 2px 6px inset;
+        border: 0px;
+        border-radius: 5px;
+    }
+    #parulkar:hover {
+        background: linear-gradient(rgb(230, 68, 43), rgb(206, 68, 43));
+    }
+    #parulkar:focus {
+        outline: none;
+    }
+    #trivedi {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #jojo {
+        font-size: 11px;
+    }
+    #mary {
+        color: blue;
+        text-decoration: none;
+    }
+    .pl {
+        background: rgb(206, 68, 43);
+        font-size: 28px;
+        padding-top: 6 px;
+        padding-bottom: 6px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px grey;
+        font-family: "Century Gothic";
+        color: rgb(212, 191, 164);
+    }
+    .name {
+        float: left;
+        padding-top: 10px;
+    }
+    .name table {
+        padding-left: 0px;
+        padding-top: 0px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 4.5px;
+    }
+    .plz {
+        padding-left: 42px;
+    }
+    .flex-span {
+        flex: 1;
+        font-size: 15px;
+        padding-top: 8px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width:360px) and (min-height:640px) {
+    .banty form {
+        padding-top: 35%;
+    }
+    .banty input[type="text"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="text"]:focus {
+        outline: none;
+    }
+    .banty input[type="password"] {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+    .banty input[type="password"]:focus {
+        outline: none;
+    }
+    .pl {
+        background: rgb(206, 68, 43);
+        font-size: 28px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px grey;
+        font-family: "Century Gothic";
+        color: rgb(212, 191, 164);
+    }
+    .name table {
+        padding-left: 0px;
+        padding-top: 0px;
+        margin: 0px;
+        border: 0px;
+        border-collapse: separate;
+        border-spacing: 4.5px;
+    }
+    .plz {
+        padding-left: 42px;
+    }
+}
